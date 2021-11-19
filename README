@@ -1,0 +1,9 @@
+** SnakeYaml 反序列化 `ScriptEngineFactory` 利用 **
+
+使用 IDEA 打 jar 包方式：
+
+1. 修改 `POCScriptEngineFactory` 命令为自己想执行的
+2. `File->Project Structure->ProjectSetting->Artifacts` 点击加号，选择 `JAR` 然后点击 `From models with dependencies`, module 选择 `yamlPOC`,点击 OK
+3. 点击 `Build->Build Artifacts->Build` 即可。
+
+适合只会依赖IDEA的人 == 。
